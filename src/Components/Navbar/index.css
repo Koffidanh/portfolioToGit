@@ -1,0 +1,65 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 65vh;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #262729;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    /* cursor: pointer; */
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+      rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    
+  }
+  
+  .sidenav a  {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav  input[type=text] {
+    width: 90%;
+    float: right;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 20px;
+    
+    
+  }
+
+  /* .navLogo {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  } */
+  .navLogoImage {
+    padding-left: 5px;
+    width: 150px;
+    height: 100px;
+  object-fit: contain;
+  }
+  .navIcon {
+    padding-left: 35px;
+  }
